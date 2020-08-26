@@ -1,1 +1,1 @@
-insert into student(student_id,student_name) values(1,'jayanti')
+insert into student(student_id,student_name) values(1001,'jayanti')
