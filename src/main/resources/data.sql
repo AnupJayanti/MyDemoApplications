@@ -1,0 +1,1 @@
+insert into student(student_id,student_name) values(1,'jayanti')
