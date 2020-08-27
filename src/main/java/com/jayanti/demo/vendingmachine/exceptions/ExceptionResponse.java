@@ -1,4 +1,4 @@
-package com.jayanti.demo.student.exceptions;
+package com.jayanti.demo.vendingmachine.exceptions;
 
 import lombok.Data;
 
