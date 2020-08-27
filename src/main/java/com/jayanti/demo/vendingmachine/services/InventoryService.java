@@ -47,12 +47,7 @@ public class InventoryService {
         itemRepository.save(inventoryObj);
     }
 
-    public void  addItem(Item item) {
-        Optional<Item> itemOptional = itemRepository.findById(item.getItemId());
-        if(itemOptional.isPresent())
-        {
-            throw new ItemAlreadyExists("Item Already Exists");
-        }
+    public void  addNewItem(Item item) {
 
         itemRepository.save(item);
     }
